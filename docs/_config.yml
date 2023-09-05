@@ -34,7 +34,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #remote_theme: pages-themes/dinky@v0.2.0 # jekyll/minima
 # remote_theme: alshedivat/al-folio
 # theme: minima
-theme: beautiful-jekyll-theme
+# theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
