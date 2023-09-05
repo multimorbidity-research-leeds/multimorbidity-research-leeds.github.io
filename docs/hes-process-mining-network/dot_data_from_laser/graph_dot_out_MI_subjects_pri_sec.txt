@@ -1,0 +1,4183 @@
+strict digraph "" {
+	graph [dpi=300,
+		margin=0.1,
+		size=12
+	];
+	node [label="\N"];
+	"Initial MI"	[color="#222222",
+		fillcolor="#e5e5e5",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label="Initial MI",
+		penwidth=20,
+		style="filled,bold",
+		width=10];
+	"Infectious/
+Parasitic"	[color="#222222",
+		fillcolor="#fc8d62",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label="Infectious/
+Parasitic",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec78b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,331</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.62%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.620493040415898,
+		style=solid,
+		weight=2];
+	Neoplasms	[color="#222222",
+		fillcolor="#8da0cb",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label=Neoplasms,
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec98d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,155</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.57%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.573643287042582,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune"	[color="#222222",
+		fillcolor="#e78ac3",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label="Blood/
+Immune",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb179",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,643</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.97%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.969736656471522,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic"	[color="#222222",
+		fillcolor="#a6d854",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label="Endocrine/
+Metabolic",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#c53c74",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">23,072</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(6.14%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=11.141576760392793,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural"	[color="#222222",
+		fillcolor="#ffd92f",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label="Mental/
+Behavioural",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e44e64",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">15,289</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.07%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.069806132526239,
+		style=solid,
+		weight=2];
+	"Nervous
+System"	[color="#222222",
+		fillcolor="#e5c494",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label="Nervous
+System",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec085",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,801</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.75%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.745603177265092,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa"	[color="#222222",
+		fillcolor="#b3b3b3",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label="Eye/
+Adnexa",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fdda9c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,411</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.38%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.375596602328113,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid"	[color="#222222",
+		fillcolor="#1b9e77",
+		fixedsize=True,
+		fontcolor="#ffffff",
+		fontsize=120,
+		height=5.0,
+		label="Ear/
+Mastoid",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf1b3",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">359</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.1%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.095562849210342,
+		style=solid,
+		weight=2];
+	"Circulatory
+System"	[color="#222222",
+		fillcolor="#d95f02",
+		fixedsize=True,
+		fontcolor="#ffffff",
+		fontsize=120,
+		height=5.0,
+		label="Circulatory
+System",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#000003",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">265,330</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(70.63%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=20,
+		style=solid,
+		weight=2];
+	"Respiratory
+System"	[color="#222222",
+		fillcolor="#7570b3",
+		fixedsize=True,
+		fontcolor="#ffffff",
+		fontsize=120,
+		height=5.0,
+		label="Respiratory
+System",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#cb3e71",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">21,348</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(5.68%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=10.682662130758725,
+		style=solid,
+		weight=2];
+	"Digestive
+System"	[color="#222222",
+		fillcolor="#e7298a",
+		fixedsize=True,
+		fontcolor="#ffffff",
+		fontsize=120,
+		height=5.0,
+		label="Digestive
+System",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f7735c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">9,165</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.44%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.4396476685592905,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue"	[color="#222222",
+		fillcolor="#66a61e",
+		fixedsize=True,
+		fontcolor="#ffffff",
+		fontsize=120,
+		height=5.0,
+		label="Skin/Subcut.
+Tissue",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fdd698",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,579</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.42%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.420316821457187,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal"	[color="#222222",
+		fillcolor="#e6ab02",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label="Musculo-
+skeletal",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fc8e63",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">6,435</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.71%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.712944107711842,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary"	[color="#222222",
+		fillcolor="#a6761d",
+		fixedsize=True,
+		fontcolor="#ffffff",
+		fontsize=120,
+		height=5.0,
+		label="Genito-
+urinary",
+		penwidth=5,
+		style=filled,
+		width=10];
+	"Initial MI" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f7715b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">9,467</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.52%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.520037586279411,
+		style=solid,
+		weight=2];
+	Censor	[color="#222222",
+		fillcolor="#e5e5e5",
+		fixedsize=True,
+		fontcolor="#000000",
+		fontsize=120,
+		height=5.0,
+		label=Censor,
+		penwidth=20,
+		style="filled,bold",
+		width=10];
+	"Initial MI" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#f2635c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">11,284</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.0%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.003708051502786,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fea671",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,527</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.21%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.205050190460219,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddc9d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,267</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.34%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.337264985931764,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb57c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,483</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.93%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.92714597158669,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fb8861",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">6,932</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.85%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.845241422635352,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb179",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,572</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.95%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.9508370400538775,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddfa1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,130</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.3%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.300796711999127,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce3a5",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">910</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.24%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.242234520282483,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf3b5",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">257</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.07%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.068411287596262,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e44e64",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">15,174</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.04%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.039194077765266,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f97b5d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,313</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.21%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.212852271547559,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f8775c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,677</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.31%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.3097460796605525,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec085",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,759</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.73%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.7344231224828235,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb57c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,481</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.93%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.926613588025629,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f8755c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,975</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.39%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.389071230258552,
+		style=solid,
+		weight=2];
+	"Infectious/
+Parasitic" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#fb8460",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">7,310</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.95%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.945861915675768,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddfa1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,181</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.31%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.314372492806167,
+		style=solid,
+		weight=2];
+	Neoplasms -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#f8775c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,537</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.27%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.272479230386324,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec689",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,489</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.66%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.66255134173967,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#febb80",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,091</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.82%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.82279879361885,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec98d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,232</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.59%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.594140054143408,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce6a8",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">855</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.23%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.227593972353322,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fde1a3",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,001</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.27%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.2664579723107305,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fbf7b9",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">213</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.06%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.056698849252933,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f56c5b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">10,150</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.7%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.7018465723815375,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fd9969",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">5,384</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.43%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.433176546374601,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f8775c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,632</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.3%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.297767449536693,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fdd698",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,620</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.43%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.431230684458925,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec689",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,455</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.65%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.653500821201643,
+		style=solid,
+		weight=2];
+	Neoplasms -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fea873",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,214</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.12%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.121732163154266,
+		style=solid,
+		weight=2];
+	Neoplasms -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#fa7f5e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">7,834</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.09%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.085346408673593,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fecb8e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,127</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.57%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.566189917187737,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec286",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,572</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.68%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.684645259523676,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb57c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,470</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.92%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.923685478439797,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fc8c63",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">6,759</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.8%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.799190244603627,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb179",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,696</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.98%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.983844820839622,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fde1a3",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,045</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.28%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.2781704106540595,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fdda9c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,412</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.38%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.375862794108643,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf0b1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">426</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.11%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.113397698505866,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#de4a67",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">16,568</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.41%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.410265419824366,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fb8861",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">6,827</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.82%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.817291285679681,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ee5b5e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">12,653</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.37%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.368124599048631,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fdd698",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,556</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.41%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.414194410504993,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fea671",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,436</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.18%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.18082673843197,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fc9366",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">5,977</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.59%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.5910282722290106,
+		style=solid,
+		weight=2];
+	"Blood/
+Immune" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#f97b5d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,313</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.21%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.212852271547559,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fda470",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,631</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.23%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.23273413563536,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fd9d6b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">5,234</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.39%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.393247779295071,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fa825f",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">7,496</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.0%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.995373586854385,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#a12f7e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">34,408</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(9.16%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=14.15912678448315,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ae347b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">29,873</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(7.95%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=12.95194705977869,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fd9768",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">5,513</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.47%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.467515286062997,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fc8c63",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">6,574</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.75%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.74994476520554,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fdd698",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,613</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.43%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.4293673419952135,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#61187f",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">71,625</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(19.07%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=20,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#c33b74",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">23,338</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(6.21%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=11.212383774013826,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#c53c74",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">22,911</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(6.1%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=11.09871988372743,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fd9f6c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,986</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.33%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.327232217723581,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#d1426e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">19,772</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(5.26%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=10.26314388464313,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#dd4968",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">17,023</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.53%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.531382679965608,
+		style=solid,
+		weight=2];
+	"Endocrine/
+Metabolic" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#892881",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">46,576</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(12.4%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=17.39814836997463,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#febb80",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,061</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.81%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.814813040202945,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb57c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,465</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.92%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.922354519537146,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb57c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,514</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.94%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.935397916783126,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e85461",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">14,018</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.73%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.731476379472355,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#d7456b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">18,151</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.83%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.831647008403674,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaf78",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,780</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.01%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.006204930404159,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#febb80",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,052</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.81%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.812417314178173,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddfa1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,179</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.31%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.313840109245107,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#872781",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">47,141</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(12.55%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=17.548546725974195,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e85461",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">14,241</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.79%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.790837146530588,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e44e64",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">15,134</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.03%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.02854640654406,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#febb80",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,011</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.8%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.801503451176434,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ef5e5d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">11,825</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.15%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.147717804769623,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f8775c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,550</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.28%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.275939723533217,
+		style=solid,
+		weight=2];
+	"Mental/
+Behavioural" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#872781",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">47,108</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(12.54%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=17.5397623972167,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce8aa",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">729</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.19%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.194053808006516,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce8aa",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">757</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.2%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.201507177861362,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce8aa",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">795</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.21%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.2116224655215095,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb77d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,287</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.87%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.87497238260277,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fc9064",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">6,208</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.65%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.652518573531486,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fdd193",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,786</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.48%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.475418520026938,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fde1a3",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,069</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.28%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.284559013386785,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf3b5",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">289</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.08%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.076929424573228,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ee5b5e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">12,649</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.37%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.36705983192651,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaa74",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,133</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.1%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.10017062893132,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#febb80",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,064</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.82%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.815611615544535,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce8aa",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">741</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.2%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.197248109372879,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaa74",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,171</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.11%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.110285916591468,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec286",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,539</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.68%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.67586093076618,
+		style=solid,
+		weight=2];
+	"Nervous
+System" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#fc8e63",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">6,453</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.72%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.717735559761386,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fceaac",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">673</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.18%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.1791470682968255,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddfa1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,148</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.31%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.305588164048671,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddfa1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,115</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.3%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.296803835291174,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb77d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,355</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.89%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.893073423678824,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec78b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,276</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.61%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.605852492486737,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce3a5",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">970</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.26%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.258206027114294,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f8775c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,633</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.3%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.2980336413172235,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fde1a3",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,005</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.27%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.267522739432851,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ef5e5d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">11,973</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.19%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.187114188288094,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fea873",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,301</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.14%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.144890848060394,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb97f",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,197</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.85%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.851015122355052,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce8aa",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">783</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.21%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.208428164155147,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feae76",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,985</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.06%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.06077424541285,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec286",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,648</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.7%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.704875834843971,
+		style=solid,
+		weight=2];
+	"Eye/
+Adnexa" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#f8755c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,813</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.35%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.345948161812659,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf1b3",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">368</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.1%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.097958575235114,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf1b3",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">355</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.09%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.094498082088221,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf1b3",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">354</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.09%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.094231890307691,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fceaac",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">682</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.18%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.181542794321597,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce8aa",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">797</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.21%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.21215484908257,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fbf7b9",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">247</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.07%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.06574936979096,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fceaac",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">666</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.18%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.177283725833114,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf1b3",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">402</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.11%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.107009095773141,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#febb80",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,043</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.81%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.8100215881534005,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddc9d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,311</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.35%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.348977424275093,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddc9d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,213</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.32%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.322890629783133,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf3b5",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">278</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.07%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.074001314987396,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddfa1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,136</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.3%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.302393862682308,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce3a5",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">957</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.25%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.2547455339674025,
+		style=solid,
+		weight=2];
+	"Ear/
+Mastoid" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#febe83",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,837</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.76%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.7551860813641795,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ee5b5e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">12,533</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.34%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.336181585385006,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#e85461",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">13,955</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.71%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.714706297298953,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#d1426e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">19,753</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(5.26%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=10.258086240813057,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#2a115c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">130,812</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(34.82%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=20,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#731f81",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">59,928</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(15.95%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=20,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e55063",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">14,851</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.95%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.953214132654011,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e85461",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">14,011</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.73%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.729613037008644,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaf78",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,846</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.02%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.023773587919152,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#040415",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">218,865</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(58.26%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=20,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#5d177e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">75,807</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(20.18%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=20,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#7a2281",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">54,119</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(14.41%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=19.406032970513934,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ee5b5e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">12,419</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.31%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.305835722404563,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#922b80",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">41,164</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(10.96%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=15.957518453745186,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#892881",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">46,316</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(12.33%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=17.32893850703678,
+		style=solid,
+		weight=2];
+	"Circulatory
+System" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#350f6a",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">113,261</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(30.15%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=20,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f7715b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">9,448</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.51%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.514979942449337,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fda16e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,860</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.29%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.293692053376776,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fa825f",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">7,668</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.04%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.04115857310558,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#c63c73",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">22,653</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(6.03%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=11.030042404350638,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#da4769",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">17,589</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.68%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.682047227745702,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fea873",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,328</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.15%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.152078026134709,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaf78",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,845</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.02%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.023507396138622,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddfa1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,185</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.32%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.315437259928288,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#742081",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">58,315</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(15.52%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=20,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#992d7f",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">38,457</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(10.24%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=15.236937303849931,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#d3426d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">19,270</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(5.13%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=10.12951561081697,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fda16e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,874</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.3%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.297418738304199,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e85461",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">14,130</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.76%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.761289858891736,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#cd3f70",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">21,032</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(5.6%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=10.598545528111183,
+		style=solid,
+		weight=2];
+	"Respiratory
+System" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#ae347b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">29,975</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(7.98%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=12.979098621392769,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f97b5d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,350</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.22%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.2227013674271765,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fb8460",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">7,346</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.96%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.955444819774855,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f1615c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">11,624</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.09%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.094213256883053,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e85461",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">14,244</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.79%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.79163572187218,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ee5d5d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">12,363</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.29%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.290928982694872,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#febb80",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,030</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.81%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.806561095006509,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fea873",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,220</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.12%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.123329313837448,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddfa1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,180</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.31%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.314106301025637,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#8a2881",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">45,471</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(12.1%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=17.10400645248876,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#d9466a",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">17,940</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.78%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.775480542711803,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#8c2980",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">43,853</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(11.67%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=16.673308151590895,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb57c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,524</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.94%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.938059834588428,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ea5560",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">13,834</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.68%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.682497091854797,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e65162",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">14,531</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.87%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.868032762884347,
+		style=solid,
+		weight=2];
+	"Digestive
+System" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#a4307d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">34,016</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(9.05%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=14.05477960651531,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaf78",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,808</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.01%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.013658300259005,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#fddfa1",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,118</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.3%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.297602410632765,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fdda9c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,382</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.37%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.367877040692737,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb97f",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,205</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.85%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.8531446565992935,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec085",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,675</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.71%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.712063012918287,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce8aa",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">798</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.21%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.2124210408631,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce6a8",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">863</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.23%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.229723506597563,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fcf3b5",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">318</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.08%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.084648986208604,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f56c5b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">10,015</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.67%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.665910682009961,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaa74",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,051</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.08%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.078342902927844,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb77d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,297</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.88%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.877634300408072,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feae76",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,983</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.06%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.0602418618517895,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaf78",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,713</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.99%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.988370081108636,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb57c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,400</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.91%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.905052053802683,
+		style=solid,
+		weight=2];
+	"Skin/Subcut.
+Tissue" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#fb8660",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">7,009</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.87%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.865738189736177,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb77d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,246</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.86%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.8640585196010315,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb77d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,293</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.88%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.876569533285951,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaa74",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,062</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.08%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.0812710125136755,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f66e5b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">9,688</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.58%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.578865969776585,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f56a5b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">10,432</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.78%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.7769126544910545,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fda470",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,699</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.25%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.250835176711414,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fea873",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">4,276</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.14%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.138236053547138,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fdd89a",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">1,440</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.38%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.383316163963489,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#a4307d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">33,833</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(9.01%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=14.006066510678282,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ee5b5e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">12,555</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.34%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.342037804556671,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e85461",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">13,946</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.71%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.71231057127418,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb57c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,508</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.93%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.933800766099944,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#ca3e72",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">22,081</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(5.88%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=10.877780705887364,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f66e5b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">9,786</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.6%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.604952764268544,
+		style=solid,
+		weight=2];
+	"Musculo-
+skeletal" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#b83778",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">26,592</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(7.08%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=12.0785718278591,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Infectious/
+Parasitic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#d7456b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">18,296</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.87%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.870244816580554,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> Neoplasms	[arrowhead=normal,
+		arrowsize=5,
+		color="#feb179",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,706</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.99%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.986506738644924,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Blood/
+Immune"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fc8e63",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">6,505</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(1.73%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=6.731577532348956,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Endocrine/
+Metabolic"	[arrowhead=normal,
+		arrowsize=5,
+		color="#d7456b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">18,121</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.82%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.823661254987769,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Mental/
+Behavioural"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f97b5d",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">8,430</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.24%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.2439967098695925,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Nervous
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec286",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,547</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.68%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.677990465010422,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Eye/
+Adnexa"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fec085",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">2,807</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.75%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.747200327948273,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Ear/
+Mastoid"	[arrowhead=normal,
+		arrowsize=5,
+		color="#fce3a5",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">921</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.25%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.2451626298683145,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Circulatory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#9f2f7e",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">36,037</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(9.59%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=14.592753194966846,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Respiratory
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e44e64",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">15,293</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.07%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.07087089964836,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Digestive
+System"	[arrowhead=normal,
+		arrowsize=5,
+		color="#e85461",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">13,997</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(3.73%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=8.72588635208122,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Skin/Subcut.
+Tissue"	[arrowhead=normal,
+		arrowsize=5,
+		color="#feaf78",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">3,734</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(0.99%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=5.99396010849977,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Musculo-
+skeletal"	[arrowhead=normal,
+		arrowsize=5,
+		color="#f7735c",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">9,076</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(2.42%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=7.415956600092102,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> "Genito-
+urinary"	[arrowhead=normal,
+		arrowsize=5,
+		color="#c63c73",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">22,231</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(5.92%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=10.917709472966894,
+		style=solid,
+		weight=2];
+	"Genito-
+urinary" -> Censor	[arrowhead=normal,
+		arrowsize=5,
+		color="#d7456b",
+		constraint=True,
+		label=<<TABLE BORDER="0">
+                            <TR>
+                            <TD BORDER="0">18,288</TD>
+                            </TR>
+                            <TR>
+                            <TD BORDER="0">(4.87%)</TD>
+                            </TR>
+                            </TABLE>>,
+		labelfloat=False,
+		penwidth=9.868115282336312,
+		style=solid,
+		weight=2];
+}

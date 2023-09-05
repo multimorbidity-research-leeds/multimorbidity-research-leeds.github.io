@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+
+      #loader {
+	  border: 16px solid #f3f3f3;
+	  border-radius: 50%;
+	  border-top: 16px solid #3498db;
+	  width: 60px;
+	  height: 60px;
+	  -webkit-animation: spin 1s linear infinite; /* Safari */
+	  animation: spin 1s linear infinite;
+	  position: absolute;
+	  top: 45%;
+	  right: 39%;
+	  display: none;
+      }
+      @-webkit-keyframes spin {
+	  0% { -webkit-transform: rotate(0deg); }
+	  100% { -webkit-transform: rotate(360deg); }
+      }
+      @keyframes spin {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+      }
+      
+      #title {
+	  color:#444444;
+      }
+
+      #topbox {
+	  position:relative;
+	  width:1500px;
+	  height:190px;
+	  padding-right:10px;
+	  padding-left:10px;
+      }
+      
+      #help {
+	font-size:11pt;
+        border: 1px solid lightgray;
+        width: 645px;
+	height:180px;
+	position: absolute;
+	#float: left;
+	#top: 5px;
+	right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color:#fafafa;
+      }
+      #desc{
+	font-size:11pt;
+        border: 1px solid lightgray;
+	width:800px;
+	height:180px;
+	position: absolute;
+	left:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color:#fafafa;
+      }
+      #main {
+	position: relative;
+        width: 1500px;
+        height: 955px;
+	padding:10px;
+      }
+      #mynetwork {
+	position: absolute;
+	right:5px;
+        width: 1270px;
+        height: 950px;
+        border: 1px solid lightgray;
+      }
+      #controls {
+        border: 1px solid lightgray;
+        width: 200px;
+	position: absolute;
+	padding-left: 10px;
+	background-color:#fafafa;
+      }
+      #extra_info {
+        border: 0px;
+        bottom: 20px;
+	position: absolute;	
+	padding-left: 10px;
+	font-size:10pt;
+      }
+      #export{
+	  position:absolute;
+	  top:100px;
+	  display:none;
+      }
+      #export-dialog-text{
+	  width:840px;
+	  height:500px;
+	  border: 1px solid #dddddd;
+      }
+
+      .ui-dialog {
+	  background:#c8e6c9 !important;
+	  border: 1px solid black;
+	  padding: 10px;
+      }
+
+      .ui-icon-close{background-position:-80px -128px}      
+
+
+    </style>
+    <title>Network of post-MI disease transitions</title>
+    <script type="text/javascript" src="vis-network-v2.min.js"></script>
+
+
+  </head>
+  <body>
+    <div id='title' style='margin-left:10px;'>
+      <h1>Network of post-MI disease transitions</h1>
+      <div style='color:#222222; width:1500px; font-size:14pt'><b>Disease trajectories following myocardial infarction: insights from process mining of 145 million hospitalisation episodes</b></div>
+      <div style='color:#222222; width:1500px; font-size:13pt; margin-bottom:15px;'>
+	Christopher James Hayward; Jonathan A Batty; Owen Johnson; David Westhead; Chris P Gale; Jianhua Wu; Marlous Hall</div>
+    </div>
+    <!-- <div id="export"> -->
+    <!--   <br><hr> -->
+    <!--   <p><b>Network data (JSON format)</b></p> -->
+    <!--   <p>Below is the data used to construct the network. The format is JSON. This can be copied and saved in a file and used by other visualisation software.</p> -->
+    <!--   <textarea id="input_output" style="width:1500px;height:500px;"></textarea> -->
+    <!--   <p><input type='button' value='Copy to clipboard' onclick='copy_to_clipboard_json();'></p> -->
+    <!--   <hr> -->
+    <!--   <br> -->
+    <!-- </div> -->
+
+
+    <div id='topbox'>
+        <div id='desc'>
+	 <p style='font-size:13pt;font-weight:bold;padding:0px;margin-top:10px;margin-bottom:10px'>About</p>
+    	This is an interactive application showing the long-term conditions which develop amongst individuals following a heart attack. The high-resolution data-driven model uses 145 million hospitalisation records in England over a decade to help better understand the patterns and likelihood of multiple long-term health conditions for survivors of a heart attack. Directed edges between ICD-10 chapter headings represent progression from one diagnosis to the next. Edge colours and widths are proportional to the number of individuals that progress between diagnoses. Disease trajectories from all individuals within the MI cohort (n=375,669) and matched control cohort (n=1,878,345) are used to construct the networks.</p>
+       </div>
+
+       <div id='help'>
+	 <p style='font-size:13pt;font-weight:bold;padding:0px;margin-top:10px;margin-bottom:10px'>How to use</p>
+	  <ul style="list-style-type:square;margin-top:0px;">
+    	    <li>In 'Options', specify what data to view (e.g. which cohort: MI or matched Control).</li>
+    	    <li>Using the mouse pointer, hover over the connections to show the number of individuals that progress from one diagnosis to the next.</li>
+    	    <li>Click on a chapter/sub-chapter to view the connected chapters/sub-chapters.</li>
+    	    <li>Rearrange the network by clicking and dragging chapters with the mouse.</li>
+	    <li>Zoom in and out using the mouse wheel.</li>
+	 </ul>
+       </div>
+    </div>
+    
+
+    <div id='main'>
+      <div id="mynetwork"></div>
+      <div id="extra_info">Made using vis.js<br><a href="https://visjs.org/">https://visjs.org/</a></div>
+      <div id="loader"></div>
+      <div id="controls">
+	<p style='font-size:13pt;font-weight:bold;padding:0px;margin-top:10px;margin-bottom:10px'>Options</p>
+	<p>
+	  <!--<p id='prc_complete'></p>-->
+	  
+	  <b>Cohort:</b><br>
+	  <input type="radio" id="radio_mi" name="radio_select_cohort" value="MI" title='View the network for the Myocardial Infarction cohort' checked>
+	  <label for="radio_mi">MI cohort</label><br>
+	  <input type="radio" id="radio_ctl" name="radio_select_cohort" value="CTL" title='View the network for the Matched control cohort'>
+	  <label for="radio_ctl">Matched control cohort</label>
+	  </p>
+
+	  <b>Trajectory type:</b><br>
+	  <input type="radio" id="radio_pri" name="radio_select_traj" value="pri" title='View the network consisting of transitions for primary diagnoses only (recorded as such in NHS HES data)' checked>
+	  <label for="radio_pri">Primary diagnoses only</label><br>
+	  <input type="radio" id="radio_pri_sec" name="radio_select_traj" value="pri_sec"  title='View the network consisting of transitions for primary and secondary diagnoses (recorded as such in NHS HES data)'>
+	  <label for="radio_pri_sec">Primary and secondary diagnoses</label>
+	  </p>
+
+	  <hr>
+	  <b>Diagnosis categorization:</b><br>
+	  <input type="radio" id="radio_network_chapter_chap" name="radio_network_chapter" value="chap" title='Display diagnoses at the ICD-10 chapter level' checked>
+	  <label for="radio_network_chapter_chap">ICD-10 chapters</label><br>
+	  <input type="radio" id="radio_network_chapter_sub" name="radio_network_chapter" value="sub" title='Display diagnoses at the ICD-10 sub-chapter level'>
+	  <label for="radio_network_chapter_sub">ICD-10 sub-chapters</label><br>
+	  </p>
+	  <hr>
+	  <b>Transition threshold:</b><br>
+	  <input type="radio" id="radio_limitAll" name="radio_limit" value="All" title='Show all connections'>
+	  <label for="radio_limitAll">All</label><br>
+	  <input type="radio" id="radio_limit005" name="radio_limit" value="005" title='Show connections followed by at least 0.05% of the cohort' checked>
+	  <label for="radio_limit005">Above 0.05%</label><br>
+	  <input type="radio" id="radio_limit01" name="radio_limit" value="01" title='Show connections followed by at least 0.1% of the cohort'>
+	  <label for="radio_limit01">Above 0.1%</label><br>
+	  <input type="radio" id="radio_limit1" name="radio_limit" value="1" title='Show connections followed by at least 1% of the cohort'>
+	  <label for="radio_limit1">Above 1%</label><br>
+	  <input type="radio" id="radio_limit5" name="radio_limit" value="5" title='Show connections followed by at least 5% of the cohort'>
+	  <label for="radio_limit5">Above 5%</label><br>
+	  </p>
+
+          <hr>
+	  <p><input type="button" value="Show all chapters" title='Display all chapters/sub-chapters, showing those which were hidden upon clicking on chapters/sub-chapters'
+	  	    onclick="showSpinner();setTimeout(function(){display_network();},100);"></p>
+          <p><input type="button" value="Export network data" title='Export the network data in JSON format'
+		    onclick="showSpinner();setTimeout(function(){exportNetwork();},100)"></p>
+	  <!--<input type="checkbox" id="checkbox_controls" value='false'>Display matched controls-->
+      </div>
+
+    </div>
+
+
+    <!-- <div id="network_hidden" style="display: none;"> -->    
+    <!--    <div id="conf" style='float:right; height: 1000px; width:800px; overflow: scroll;'></div>-->
+
+    <div id="export-dialog" title="">
+      <p><b>Network data (JSON format)</b></p>
+      <p>Below is the data used to construct the network. This can be copied and saved in a file and used by other visualisation software.</p>
+	<textarea id="export-dialog-text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+	<!-- <input type="text" name="name" id="export-dialog-text" -->
+	<!--        class="text ui-widget-content ui-corner-all"> -->
+      <p><input type='button' value='Copy to clipboard' onclick='copy_to_clipboard_json();'></p>
+    </div>
+
+    <script type="text/javascript" src="js_network_data/network_MI_pri_dot_CHAPTER.js"></script>
+    <script type="text/javascript" src="js_network_data/network_CTL_pri_dot_CHAPTER.js"></script>
+    <script type="text/javascript" src="js_network_data/network_MI_pri_sec_dot_CHAPTER.js"></script>
+    <script type="text/javascript" src="js_network_data/network_CTL_pri_sec_dot_CHAPTER.js"></script>
+
+    <script type="text/javascript" src="js_network_data/network_MI_pri_dot.js"></script>
+    <script type="text/javascript" src="js_network_data/network_CTL_pri_dot.js"></script>
+    <script type="text/javascript" src="js_network_data/network_MI_pri_sec_dot.js"></script>
+    <script type="text/javascript" src="js_network_data/network_CTL_pri_sec_dot.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="network.js"></script>
+    
+</body>
+</html>
