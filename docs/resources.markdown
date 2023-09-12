@@ -17,8 +17,8 @@ permalink: /research-resources/
 <div>
   {% for resource in site.research-resources %}
     <!--<li>-->
-	<a href="{{ resource.url }}">
-        {{ resource.type }} &ndash;  {{ resource.title }}
+	&ndash;>  <a href="{{ resource.url }}">
+         {{ resource.title }}
 		
 		<!--&ndash; <time datetime="{{ resource.date | date: "%Y-%m-%d" }}">{{ resource.date | date_to_long_string }}</time>-->
     </a>

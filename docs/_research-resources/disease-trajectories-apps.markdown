@@ -2,7 +2,7 @@
 title: "Disease trajectories following myocardial infarction: insights from process mining of 145 million hospitalisation episodes"
 time: 2023-09-05
 layout: default
-type: Online interactive applications
+# type: Resources for:
 ---
 
 <!-- Means things inside HTML tags are processed by kramdown-->
@@ -12,13 +12,15 @@ type: Online interactive applications
 <br>
 </div>
 
+## Publication resources
+
 
 Disease trajectories following myocardial infarction: insights from process mining of 145 million hospitalisation episodes.
 <br>Christopher J. Hayward, Jonathan A. Batty, David R. Westhead, Chris P. Gale, Jianhua Wu, Marlous Hall (2023). eBioMedicine.
 
 
 
-## Online interactive applications
+### Online interactive applications
 
 
 [**Application 1: Breakdown of disease chapters for post-MI disease trajectories**](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI-disease-trajectories-hes/)
@@ -48,12 +50,12 @@ This application shows the number of individuals that transition between diagnos
 </div>
 
 
-## Programming code
+### Programming code
 
 
 [Link to GitHub repository](https://github.com/multimorbidity-research-leeds/postMI-process-mining-hes)
 
 
-## Privacy notice
+### Privacy notice
 
 [Link to Privacy Notice](https://lida.leeds.ac.uk/privacy/privacy-notice-for-hospital-episode-statistics-hes-data-for-hospitalisation-and-mortality-after-acute-myocardial-infarction-project/)

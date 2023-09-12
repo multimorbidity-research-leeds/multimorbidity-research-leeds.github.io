@@ -16,5 +16,5 @@ permalink: /team/
 
 **Charlotte Sturley** - Research Fellow in Health Data Analytics; funded through M Hall's UAF start up pot; working on geographical variation in multimorbidity and PPIE lead. Stata/R/ARCGis/disease mapping.
 
-**Christopher Hayward** - Research Fellow; post MI disease trajectories and underpinning methodology for Turing ASG grant in HES data; process mining disease trajectories; developing ideas for BHF grant to follow pilot study. Python/R/Shiny-coding.
+[**Christopher Hayward**](https://medicinehealth.leeds.ac.uk/medicine/staff/5031/dr-chris-hayward) - Research Fellow; post MI disease trajectories and underpinning methodology for Turing ASG grant in HES data; process mining disease trajectories; developing ideas for BHF grant to follow pilot study. Python/R/Shiny-coding.
 
