@@ -16,7 +16,7 @@ layout: default
 
 
 Disease trajectories following myocardial infarction: insights from process mining of 145 million hospitalisation episodes.
-<br>Christopher J. Hayward, Jonathan A. Batty, David R. Westhead, Chris P. Gale, Jianhua Wu, Marlous Hall (2023). eBioMedicine.
+<br>Christopher J. Hayward, Jonathan A. Batty, David R. Westhead, Owen Johnson, Chris P. Gale, Jianhua Wu, Marlous Hall (2023). eBioMedicine.
 
 
 
