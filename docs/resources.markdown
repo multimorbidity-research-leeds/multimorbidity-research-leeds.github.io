@@ -8,7 +8,7 @@ permalink: /research-resources/
 <br>
 </div>
 
-## Publication resources
+## Publication Resources
 
 <div style='margin-top:10px;margin-bottom:10px'>
 <br>
@@ -17,9 +17,8 @@ permalink: /research-resources/
 <div>
   {% for resource in site.research-resources %}
     <!--<li>-->
-	&ndash;>  <a href="{{ resource.url }}">
+	 <a href="{{ resource.url }}"> &ndash; 
          {{ resource.title }}
-		
 		<!--&ndash; <time datetime="{{ resource.date | date: "%Y-%m-%d" }}">{{ resource.date | date_to_long_string }}</time>-->
     </a>
     <!--</li>-->
