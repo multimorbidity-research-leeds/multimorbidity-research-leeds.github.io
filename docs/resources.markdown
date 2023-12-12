@@ -21,6 +21,7 @@ permalink: /research-resources/
          {{ resource.title }}
 		<!--&ndash; <time datetime="{{ resource.date | date: "%Y-%m-%d" }}">{{ resource.date | date_to_long_string }}</time>-->
     </a>
+	<br>
     <!--</li>-->
   {% endfor %}
 </div>
