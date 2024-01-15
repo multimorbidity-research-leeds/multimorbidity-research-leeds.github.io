@@ -1,5 +1,5 @@
 ---
-title: "Disease trajectories following myocardial infarction: insights from process mining of 145 million hospitalisation episodes"
+title: "<b>Disease trajectories following myocardial infarction: insights from process mining of 145 million hospitalisation episodes</b> <i>&ndash; eBioMedicine; 2023</i> "
 time: 2023-09-05
 layout: default
 # type: Resources for:
@@ -12,16 +12,15 @@ layout: default
 <br>
 </div>
 
-## Publication resources
+<!--## Publication resources-->
 
+## Disease trajectories following myocardial infarction: insights from process mining of 145 million hospitalisation episodes
+Christopher J. Hayward, Jonathan A. Batty, David R. Westhead, Owen Johnson, Chris P. Gale, Jianhua Wu, Marlous Hall &ndash; eBioMedicine 2023.
 
-Disease trajectories following myocardial infarction: insights from process mining of 145 million hospitalisation episodes.
-<br>Christopher J. Hayward, Jonathan A. Batty, David R. Westhead, Owen Johnson, Chris P. Gale, Jianhua Wu, Marlous Hall (2023). eBioMedicine.
-
+[https://doi.org/10.1016/j.ebiom.2023.104792](https://doi.org/10.1016/j.ebiom.2023.104792)
 
 
 ### Online interactive applications
-
 
 [**Application 1: Breakdown of disease chapters for post-MI disease trajectories**](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI-disease-trajectories-hes/)
 
@@ -29,7 +28,7 @@ This application provides a breakdown of the ICD-10 chapters appearing within th
 
 <div style="border: 3px solid #ff854d; padding:0px; margin-left:50px; margin-right:50px;width:400px">
  <a href="https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI-disease-trajectories-hes/">
-  <img src="/images/shiny-small-trajectories.png" style="margin:0px;padding:0px;">
+  <img src="/images/shiny-small-trajectories.png" style="margin:0px;padding:3px;">
  </a>
 </div>
 
@@ -42,7 +41,7 @@ This application shows the number of individuals that transition between diagnos
 
 <div style="border: 3px solid #ff854d; padding:0px; margin-left:50px; margin-right:50px;width:400px">
  <a href="/hes-process-mining-network/network.html">
-  <img src="/images/disease-transition-network.png" style="margin:0px;padding:0px;">
+  <img src="/images/disease-transition-network.png" style="margin:0px;padding:3px;">
  </a>
 </div>
 

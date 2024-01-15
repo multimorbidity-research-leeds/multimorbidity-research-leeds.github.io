@@ -15,13 +15,13 @@ permalink: /research-resources/
 </div>
 <!--<ul style="list-style-type:none">-->
 <div>
-  {% for resource in site.research-resources %}
+  {% for resource in site.research-resources reversed %}
     <!--<li>-->
-	 <a href="{{ resource.url }}"> &ndash; 
-         {{ resource.title }}
-		<!--&ndash; <time datetime="{{ resource.date | date: "%Y-%m-%d" }}">{{ resource.date | date_to_long_string }}</time>-->
-    </a>
-	<br>
+	<a href="{{ resource.url }}">
+&bull; {{ resource.title }}
+		<!--&bull; <time datetime="{{ resource.date | date: "%Y-%m-%d" }}">{{ resource.date | date_to_long_string }}</time>-->
+        </a>
+	<div style="margin-top:30px"></div>
     <!--</li>-->
   {% endfor %}
 </div>
