@@ -17,7 +17,3 @@ Led by Dr Marlous Hall, the Survivorship and Multimorbidity Epidemiology group f
 
 The research group is based within the Leeds Institute for Data Analytics, and is part of the Clinical and Population Sciences Department in the Leeds Institute of Cardiovascular and Metabolic Medicine.
 
-
-
-TEST
-
