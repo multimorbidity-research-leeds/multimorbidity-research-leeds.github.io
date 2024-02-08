@@ -13,9 +13,9 @@ layout: default
 </div>
 
 ## Health outcomes after myocardial infarction: a population study of 56 million people in England
-M Hall, L Smith, J Wu, C Hayward, J A Batty, P C Lambert, H Hemingway, C P Gale &ndash; [https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004343](PLoS Medicine, Feb 2024).
+M Hall, L Smith, J Wu, C Hayward, J A Batty, P C Lambert, H Hemingway, C P Gale &ndash; [PLoS Medicine, Feb 2024](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004343).
 
-This work was presented at the European Society of Cardiology Congress, Amsterdam, August 2023 - and the associated abstract is available [https://doi.org/10.1093/eurheartj/ehad655.1212](here).
+This work was presented at the European Society of Cardiology Congress, Amsterdam, August 2023 - and the associated abstract is available [here](https://doi.org/10.1093/eurheartj/ehad655.1212).
 
 ### Online interactive application
 
