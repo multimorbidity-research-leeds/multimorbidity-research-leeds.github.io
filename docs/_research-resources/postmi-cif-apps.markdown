@@ -13,15 +13,15 @@ layout: default
 </div>
 
 ## Health outcomes after myocardial infarction: a population study of 56 million people in England
-M Hall, L Smith, J Wu, C Hayward, J A Batty, P C Lambert, H Hemingway, C P Gale &ndash; PLoS Medicine 2023.
+M Hall, L Smith, J Wu, C Hayward, J A Batty, P C Lambert, H Hemingway, C P Gale &ndash; [https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004343](PLoS Medicine, Feb 2024).
 
-[https://doi.org/10.1093/eurheartj/ehad655.1212](https://doi.org/10.1093/eurheartj/ehad655.1212)
+This work was presented at the European Society of Cardiology Congress, Amsterdam, August 2023 - and the associated abstract is available [https://doi.org/10.1093/eurheartj/ehad655.1212](here).
 
 ### Online interactive application
 
-[**Cumulative incidence of a range of health outcomes following myocardial infarction**](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI_CIF/)
+[**Cumulative incidence of a wide range of health outcomes following myocardial infarction**](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI_CIF/)
 
-This application displays a series of heat maps of the cumulative incidence of a range of health outcomes following myocardial infarction (MI) compared with an age and sex matched control cohort.
+This application displays a series of heatmaps of the absolute risk of a range of health outcomes following myocardial infarction (MI) for specific age, sex and deprivation groups compared with a control study group.
 
 <div style="border: 3px solid #ff854d; padding:0px; margin-left:50px; margin-right:50px;width:400px">
  <a href="https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI_CIF/">
