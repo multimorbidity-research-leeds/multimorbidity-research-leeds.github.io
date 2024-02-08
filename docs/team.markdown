@@ -10,11 +10,13 @@ permalink: /team/
 
 ## Team
 
-[**Marlous Hall**](https://medicinehealth.leeds.ac.uk/medicine/staff/390/dr-marlous-hall) - Associate Professor in Epidemiology; Team lead. Areas of expertise: Epidemiology; large complex clinical data; advanced analytical methodology; cardiovascular survivorship and multimorbidity.
+[**Marlous Hall**](https://medicinehealth.leeds.ac.uk/medicine/staff/390/dr-marlous-hall) - Associate Professor of Epidemiology; Group lead. Areas of expertise: Epidemiology; large complex clinical and routine electronic healthcare record data; advanced analytical methodology; cardiovascular survivorship and multimorbidity.
 
-[**Jonathan Batty**](https://medicinehealth.leeds.ac.uk/medicine/staff/11309/dr-jonathan-batty) - Clinical Research Fellow (Cardiology Registrar) and PGR student, funded through 4ward North Wellcome Fellowship; project on MI and multimorbidity (CPRD-HES data). Stata/R/Python.
+[**Charlotte Sturley**](https://medicinehealth.leeds.ac.uk/staff/797/dr-charlotte-sturley) - Postdoctoral Research Fellow in Health Data Analytics and Lead for PPIE. Project: "Geographical variation in health outcomes following Myocardial Infarction." Areas of expertise: Health data analytics; epidemiology; health geography; geospatial methods; visualisation; Stata/R/ARCGis/disease mapping. 
 
-[**Charlotte Sturley**](https://medicinehealth.leeds.ac.uk/staff/797/dr-charlotte-sturley) - Research Fellow in Health Data Analytics; funded through M Hall's UAF start up pot; working on geographical variation in multimorbidity and PPIE lead. Stata/R/ARCGis/disease mapping.
+[**Jonathan Batty**](https://medicinehealth.leeds.ac.uk/medicine/staff/11309/dr-jonathan-batty) - Clinical Research Fellow (Cardiology Registrar) and PhD Student. Project: "Multimorbidity and myocardial infarction: an investigation using linked, routinely collected health record data", 4ward North Wellcome PhD Fellowship. Areas of expertise: advanced analytic methods (classic epidemiology and biostatistics, and novel, machine learning-based approaches); Stata/R/Python coding.
 
-[**Christopher Hayward**](https://medicinehealth.leeds.ac.uk/medicine/staff/5031/dr-chris-hayward) - Research Fellow; post MI disease trajectories and underpinning methodology for Turing ASG grant in HES data; process mining disease trajectories; developing ideas for BHF grant to follow pilot study. Python/R/Shiny-coding.
+[**Tamara del Torro**](https://medicinehealth.leeds.ac.uk/medicine/staff/11309/dr-jonathan-batty) - PhD Student. Project: "Evaluating the impact of multimorbidity on guideline-recommended therapy for myocardial infarction using nationwide real-world clinical data", 4-year British Heart Foundation PhD Programme. Areas of expertise: health data science; R/Python coding; science communication; coding community lead.
+
+[**Christopher Hayward**](https://medicinehealth.leeds.ac.uk/medicine/staff/5031/dr-chris-hayward) - Postdoctoral Research Fellow in Health Data Analytics. Research Fellow for project "Data phenotyping longitudinal multimorbidity trajectories in cardiovascular disease" AI for Science and Government Funding, Alan Turing Instutite (to December 2023). Areas of expertise: data analysis; computational simulation; machine learning; global search heuristics; combinatorial optimisation; Python/R/Shiny-coding.
 
