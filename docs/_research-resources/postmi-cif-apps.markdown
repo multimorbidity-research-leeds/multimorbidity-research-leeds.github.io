@@ -13,8 +13,9 @@ layout: default
 </div>
 
 ## Health outcomes after myocardial infarction: a population study of 56 million people in England
-M Hall, L Smith, J Wu, C Hayward, J A Batty, P C Lambert, H Hemingway, C P Gale &ndash; [PLoS Medicine, Feb 2024](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004343).
+[M Hall](https://medicinehealth.leeds.ac.uk/medicine/staff/390/dr-marlous-hall), L Smith, J Wu, C Hayward, J A Batty, P C Lambert, H Hemingway, C P Gale &ndash; [PLoS Medicine, Feb 2024](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004343).
 
+### Associated outputs
 This work was presented at the European Society of Cardiology Congress, Amsterdam, August 2023 - and the associated abstract is available [here](https://doi.org/10.1093/eurheartj/ehad655.1212).
 
 ### Online interactive application
@@ -32,6 +33,8 @@ This application displays a series of heatmaps of the absolute risk of a range o
 <div style='margin-top:40px;margin-bottom:40px'>
 </div>
 
+### Funding
+Dr Hall received funding from the [Wellcome Trust](https://wellcome.org/) (Sir Henry Wellcome Postdoctoral Fellowship ref: 206470/Z/17/Z), [British Heart Foundation](https://www.bhf.org.uk/) (ref: PG/19/54/34511) and [British Heart Foundation-Alan Turing Cardiovascular Data Science Award](https://www.bhf.org.uk/for-professionals/information-for-researchers/what-we-fund/bhf-turing-cardiovascular-data-science-awards) (ref: BHF-Turing-19/02/1022). Dr Batty was funded by Wellcome Trust 4ward North Clinical Research Training Fellowship (ref: 227498/Z/23/Z). The funders had no role in the study design, collection, analyses or interpretation of data or in the writing of the report or decision to submit the paper for publication. 
 
 ### Privacy notice
 
