@@ -38,50 +38,61 @@ permalink: /research-resources/
 </div>
 
 <script>
-fetch("https://api.github.com/orgs/multimorbidity-research-leeds/repos?per_page=100&sort=updated")
-  .then(function(response) {
-    return response.json();
-  })
-  .then(function(repositories) {
+document.addEventListener("DOMContentLoaded", function() {
 
-    var container = document.getElementById("github-repositories");
+  fetch("https://api.github.com/orgs/multimorbidity-research-leeds/repos?type=sources&per_page=100")
+    .then(function(response) {
+      if (!response.ok) {
+        throw new Error("GitHub API request failed");
+      }
+      return response.json();
+    })
+    .then(function(repositories) {
 
-    container.innerHTML = "";
+      var container = document.getElementById("github-repositories");
 
-    repositories.forEach(function(repo) {
+      container.innerHTML = "";
 
-      var div = document.createElement("div");
-      div.style.marginBottom = "30px";
+      repositories.forEach(function(repo) {
 
-      var link = document.createElement("a");
-      link.href = repo.html_url;
-      link.target = "_blank";
-      link.innerHTML = "&bull; <strong>" + repo.name + "</strong>";
+        var div = document.createElement("div");
+        div.style.marginBottom = "30px";
 
-      div.appendChild(link);
+        var link = document.createElement("a");
+        link.href = repo.html_url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
 
-      if (repo.description) {
+        link.textContent = "• " + repo.name;
 
-        var description = document.createElement("p");
-        description.style.marginTop = "5px";
-        description.style.marginLeft = "15px";
-        description.textContent = repo.description;
+        div.appendChild(link);
 
-        div.appendChild(description);
+        if (repo.description) {
+
+          var description = document.createElement("p");
+          description.style.marginTop = "5px";
+          description.style.marginLeft = "15px";
+          description.textContent = repo.description;
+
+          div.appendChild(description);
+        }
+
+        container.appendChild(div);
+      });
+
+      if (repositories.length === 0) {
+        container.innerHTML = "<p>No repositories found.</p>";
       }
 
-      container.appendChild(div);
+    })
+    .catch(function(error) {
+
+      console.log(error);
+
+      document.getElementById("github-repositories").innerHTML =
+        "<p>Unable to load GitHub repositories.</p>";
+
     });
 
-    if (repositories.length === 0) {
-      container.innerHTML = "<p>No repositories found.</p>";
-    }
-
-  })
-  .catch(function(error) {
-
-    document.getElementById("github-repositories").innerHTML =
-      "<p>Unable to load GitHub repositories.</p>";
-
-  });
+});
 </script>
