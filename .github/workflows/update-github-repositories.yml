@@ -28,7 +28,11 @@ jobs:
             -H "Authorization: Bearer $GH_TOKEN" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             "https://api.github.com/orgs/multimorbidity-research-leeds/repos?per_page=100&type=sources&sort=updated" \
-            > repositories.json
+            -o repositories.json
+
+          echo "===== GitHub API response ====="
+          cat repositories.json
+          echo "===== End response ====="
 
       - name: Create repository data file
         run: |
