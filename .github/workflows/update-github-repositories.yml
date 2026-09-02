@@ -38,24 +38,24 @@ jobs:
           python - <<'PY'
 
           import json
-          import yaml
 
           with open("repositories.json", "r") as f:
               repositories = json.load(f)
 
-          output = []
-
-          for repo in repositories:
-
-              output.append({
-                  "name": repo["name"],
-                  "url": repo["html_url"],
-                  "description": repo.get("description", ""),
-                  "language": repo.get("language", "")
-              })
-
           with open("docs/_data/github_repositories.yml", "w") as f:
-              yaml.dump(output, f, sort_keys=False, allow_unicode=True)
+
+              for repo in repositories:
+
+                  f.write("- name: \"" + repo["name"].replace('"', '\\"') + "\"\n")
+                  f.write("  url: \"" + repo["html_url"] + "\"\n")
+
+                  description = repo.get("description") or ""
+                  description = description.replace('"', '\\"')
+
+                  f.write("  description: \"" + description + "\"\n")
+
+                  language = repo.get("language") or ""
+                  f.write("  language: \"" + language + "\"\n")
 
           PY
 
