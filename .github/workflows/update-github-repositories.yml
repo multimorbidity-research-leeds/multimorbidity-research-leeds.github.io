@@ -1,0 +1,72 @@
+name: Update GitHub repositories
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-repositories:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get group repositories
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          curl -L \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/orgs/multimorbidity-research-leeds/repos?per_page=100&type=sources&sort=updated" \
+            > repositories.json
+
+      - name: Create repository data file
+        run: |
+
+          mkdir -p docs/_data
+
+          python - <<'PY'
+
+          import json
+          import yaml
+
+          with open("repositories.json", "r") as f:
+              repositories = json.load(f)
+
+          output = []
+
+          for repo in repositories:
+
+              output.append({
+                  "name": repo["name"],
+                  "url": repo["html_url"],
+                  "description": repo.get("description", ""),
+                  "language": repo.get("language", "")
+              })
+
+          with open("docs/_data/github_repositories.yml", "w") as f:
+              yaml.dump(output, f, sort_keys=False, allow_unicode=True)
+
+          PY
+
+      - name: Commit updated repository list
+        run: |
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add docs/_data/github_repositories.yml
+
+          git diff --cached --quiet || git commit -m "Update GitHub repositories"
+
+          git push
