@@ -25,9 +25,13 @@ permalink: /research-resources/
     <!--</li>-->
   {% endfor %}
 </div>
-<!--</ul>-->
 
-<h2>GitHub Resources</h2>
+
+## GitHub Resources
+
+<div style='margin-top:10px;margin-bottom:10px'>
+<br>
+</div>
 
 <div id="github-repositories">
   <p>Loading repositories...</p>
@@ -35,21 +39,49 @@ permalink: /research-resources/
 
 <script>
 fetch("https://api.github.com/orgs/multimorbidity-research-leeds/repos?per_page=100&sort=updated")
-  .then(response => response.json())
-  .then(repositories => {
-    const container = document.getElementById("github-repositories");
-
-    container.innerHTML = repositories.map(repo => `
-      <div style="margin-bottom:30px;">
-        <a href="${repo.html_url}" target="_blank">
-          &bull; <strong>${repo.name}</strong>
-        </a>
-        ${repo.description ? `<p style="margin-top:5px;margin-left:15px;">${repo.description}</p>` : ""}
-      </div>
-    `).join("");
+  .then(function(response) {
+    return response.json();
   })
-  .catch(error => {
+  .then(function(repositories) {
+
+    var container = document.getElementById("github-repositories");
+
+    container.innerHTML = "";
+
+    repositories.forEach(function(repo) {
+
+      var div = document.createElement("div");
+      div.style.marginBottom = "30px";
+
+      var link = document.createElement("a");
+      link.href = repo.html_url;
+      link.target = "_blank";
+      link.innerHTML = "&bull; <strong>" + repo.name + "</strong>";
+
+      div.appendChild(link);
+
+      if (repo.description) {
+
+        var description = document.createElement("p");
+        description.style.marginTop = "5px";
+        description.style.marginLeft = "15px";
+        description.textContent = repo.description;
+
+        div.appendChild(description);
+      }
+
+      container.appendChild(div);
+    });
+
+    if (repositories.length === 0) {
+      container.innerHTML = "<p>No repositories found.</p>";
+    }
+
+  })
+  .catch(function(error) {
+
     document.getElementById("github-repositories").innerHTML =
       "<p>Unable to load GitHub repositories.</p>";
+
   });
 </script>
