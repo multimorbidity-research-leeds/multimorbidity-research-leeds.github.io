@@ -23,6 +23,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
 
+          mkdir -p docs/_data
+
           curl -L \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer $GH_TOKEN" \
@@ -34,10 +36,33 @@ jobs:
           cat repositories.json
           echo "===== End response ====="
 
-      - name: Create repository data file
+      - name: Check GitHub response
         run: |
 
-          mkdir -p docs/_data
+          python - <<'PY'
+
+          import json
+
+          with open("repositories.json", "r") as f:
+              data = json.load(f)
+
+          if not isinstance(data, list):
+              print("")
+              print("ERROR: GitHub did not return a list of repositories.")
+              print("")
+              print("GitHub returned:")
+              print(data)
+              print("")
+              raise SystemExit(1)
+
+          print("")
+          print("SUCCESS: GitHub returned", len(data), "repositories.")
+          print("")
+
+          PY
+
+      - name: Create repository data file
+        run: |
 
           python - <<'PY'
 
