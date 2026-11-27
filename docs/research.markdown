@@ -20,27 +20,27 @@ This personal fellowship supported Dr Marlous Hall's research into healthcare ut
 
 ## Publications
 
-- Sturley, C., del Toro, T., Batty, J.A., Booth, E. and Hall, M. (2026). *Geographic variation in long-term health outcomes following myocardial infarction in England*. **Heart**. DOI: https://doi.org/10.1136/heartjnl-2025-327671
+- Sturley, C., del Toro, T., Batty, J.A., Booth, E. and Hall, M. (2026). *Geographic variation in long-term health outcomes following myocardial infarction in England*. **Heart**. DOI: <https://doi.org/10.1136/heartjnl-2025-327671>
    - The interactive maps based on this work can be explored [here](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI_CIF_spatial/).
 
-- Ba Dhafari, T., Pate, A., Martin, G., Rafferty, J., Jalali-Najafabadi, F., Hall, M. and Peek, N. (2026). *Cluster separation outperforms other metrics in validating multimorbidity patterns: statistical simulation study*. **Journal of Clinical Epidemiology**, 194, 112209. DOI: https://doi.org/10.1016/j.jclinepi.2026.112209
+- Ba Dhafari, T., Pate, A., Martin, G., Rafferty, J., Jalali-Najafabadi, F., Hall, M. and Peek, N. (2026). *Cluster separation outperforms other metrics in validating multimorbidity patterns: statistical simulation study*. **Journal of Clinical Epidemiology**, 194, 112209. DOI: <https://doi.org/10.1016/j.jclinepi.2026.112209>
 
-- Batty, J.A., Hayward, C.J., Lyons, R.A., Gale, C.P., Peek, N. and Hall, M. (2025). *Long-term accrual of conditions following myocardial infarction: a study of disease trajectories in the Wales Multimorbidity e-Cohort*. **BMC Medicine**, 23, 710. DOI: https://doi.org/10.1186/s12916-025-04520-1
+- Batty, J.A., Hayward, C.J., Lyons, R.A., Gale, C.P., Peek, N. and Hall, M. (2025). *Long-term accrual of conditions following myocardial infarction: a study of disease trajectories in the Wales Multimorbidity e-Cohort*. **BMC Medicine**, 23, 710. DOI: <https://doi.org/10.1186/s12916-025-04520-1>
 
-- Batty, J.A., del Toro, T., Drayton, D.J., Booth, E., Anik, E., Sturley, C., Brown, B.C., Kearney, M.T. and Hall, M. (2025). *Multimorbidity in acute coronary syndrome: a systematic review and meta-analysis*. **JACC: Advances**, 4(8), 102006. DOI: https://doi.org/10.1016/j.jacadv.2025.102006
+- Batty, J.A., del Toro, T., Drayton, D.J., Booth, E., Anik, E., Sturley, C., Brown, B.C., Kearney, M.T. and Hall, M. (2025). *Multimorbidity in acute coronary syndrome: a systematic review and meta-analysis*. **JACC: Advances**, 4(8), 102006. DOI: <https://doi.org/10.1016/j.jacadv.2025.102006>
 
-- Hall, M., Smith, L., Wu, J. *et al.* (2024). *Health outcomes after myocardial infarction: a population study of 56 million people in England*. **PLOS Medicine**, 21(2), e1004343. DOI: https://doi.org/10.1371/journal.pmed.1004343
+- Hall, M., Smith, L., Wu, J. *et al.* (2024). *Health outcomes after myocardial infarction: a population study of 56 million people in England*. **PLOS Medicine**, 21(2), e1004343. DOI: <https://doi.org/10.1371/journal.pmed.1004343>
     - The interactive heat maps based on this work can be explored [here](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI_CIF/).
 
-- Marzban, M., Hall, M. *et al.* (2024). *Determinants of multimorbidity in older adults in Iran: a cross-sectional study using latent class analysis on the Bushehr Elderly Health (BEH) program*. **BMC Geriatrics**, 24(1), 247. DOI: https://doi.org/10.1186/s12877-024-04848-y
+- Marzban, M., Hall, M. *et al.* (2024). *Determinants of multimorbidity in older adults in Iran: a cross-sectional study using latent class analysis on the Bushehr Elderly Health (BEH) program*. **BMC Geriatrics**, 24(1), 247. DOI: <https://doi.org/10.1186/s12877-024-04848-y>
 
 - Hayward, C.J., Batty, J.A., Westhead, D.R., Johnson, O., Gale, C.P., Wu, J. and Hall, M. (2023). *Disease trajectories following myocardial infarction: insights from process mining of 145 million hospitalisation episodes*. **eBioMedicine**, 96.
 
-- Lyons, J., Akbari, A., Abrams, K.R., Hall, M. *et al.* (2023). *Trajectories in chronic disease accrual and mortality across the lifespan in Wales, UK (2005-2019), by area deprivation profile: linked electronic health records cohort study on 965,905 individuals*. **The Lancet Regional Health – Europe**, 32, 100687. DOI: https://doi.org/10.1016/j.lanepe.2023.100687
+- Lyons, J., Akbari, A., Abrams, K.R., Hall, M. *et al.* (2023). *Trajectories in chronic disease accrual and mortality across the lifespan in Wales, UK (2005-2019), by area deprivation profile: linked electronic health records cohort study on 965,905 individuals*. **The Lancet Regional Health – Europe**, 32, 100687. DOI: <https://doi.org/10.1016/j.lanepe.2023.100687>
 
-- Drayton, D.J., Ayres, M., Relton, S.D., Sperrin, M. and Hall, M. (2022). *Risk scores in anaesthesia: the future is hard to predict*. **BJA Open**, 3, 100027. DOI: https://doi.org/10.1016/j.bjao.2022.100027
+- Drayton, D.J., Ayres, M., Relton, S.D., Sperrin, M. and Hall, M. (2022). *Risk scores in anaesthesia: the future is hard to predict*. **BJA Open**, 3, 100027. DOI: <https://doi.org/10.1016/j.bjao.2022.100027>
 
-- Lyons, J., Akbari, A., Agrawal, U., Harper, G., Azcoaga-Lorenzo, A., Hall, M. *et al.* (2021). *Protocol for the development of the Wales Multimorbidity e-Cohort (WMC): data sources and methods to construct a population-based research platform to investigate multimorbidity*. **BMJ Open**, 11, e047101. DOI: https://doi.org/10.1136/bmjopen-2020-047101
+- Lyons, J., Akbari, A., Agrawal, U., Harper, G., Azcoaga-Lorenzo, A., Hall, M. *et al.* (2021). *Protocol for the development of the Wales Multimorbidity e-Cohort (WMC): data sources and methods to construct a population-based research platform to investigate multimorbidity*. **BMJ Open**, 11, e047101. DOI: <https://doi.org/10.1136/bmjopen-2020-047101>
 
 - Munyombwe, T., Dondo, T.B., Aktaa, S., Wilkinson, C., Hall, M. *et al.* (2021). *Association of multimorbidity and changes in health-related quality of life following myocardial infarction: a UK multicentre longitudinal patient-reported outcomes study*. **BMC Medicine**, 18, 231.
 
@@ -48,7 +48,7 @@ This personal fellowship supported Dr Marlous Hall's research into healthcare ut
 
 - Yadegarfar, M.E., Gale, C.P., Dondo, T.B., Wilkinson, C.G., Cowie, M.R. and Hall, M. (2020). *Association of treatments for acute myocardial infarction and survival for seven common comorbidity states: a nationwide cohort study*. **BMC Medicine**, 18, 231.
 
-- Hurdus, B., Munyombwe, T., Dondo, T.B., Aktaa, S., Oliver, G., Hall, M., Doherty, P., Hall, A.S. and Gale, C.P. (2020). *Association of cardiac rehabilitation and health-related quality of life following acute myocardial infarction*. **Heart**. DOI: https://doi.org/10.1136/heartjnl-2020-316920
+- Hurdus, B., Munyombwe, T., Dondo, T.B., Aktaa, S., Oliver, G., Hall, M., Doherty, P., Hall, A.S. and Gale, C.P. (2020). *Association of cardiac rehabilitation and health-related quality of life following acute myocardial infarction*. **Heart**. DOI: <https://doi.org/10.1136/heartjnl-2020-316920>
 
 - Wu, J., Alsaeed, E.S., Barrett, J., Hall, M., Cowan, C. and Gale, C.P. (2020). *Prescription of oral anticoagulants and antiplatelets for stroke prophylaxis in atrial fibrillation: nationwide time series ecological analysis*. **Europace**, 22(9), 1311–1319.
 
@@ -58,7 +58,7 @@ This personal fellowship supported Dr Marlous Hall's research into healthcare ut
 
 - Todd, O., Wilkinson, C., Hale, M., Hall, M. *et al.* (2019). *Is the association between blood pressure and mortality in older adults different with frailty? A systematic review and meta-analysis*. **Age and Ageing**, 48(5), 627–635.
 
-- Wilkinson, C., Todd, O., Clegg, A., Gale, C.P. and Hall, M. (2019). *Management of atrial fibrillation for older people with frailty: a systematic review and meta-analysis*. **Age and Ageing**, 48(2), 196–203. DOI: https://doi.org/10.1093/ageing/afy180
+- Wilkinson, C., Todd, O., Clegg, A., Gale, C.P. and Hall, M. (2019). *Management of atrial fibrillation for older people with frailty: a systematic review and meta-analysis*. **Age and Ageing**, 48(2), 196–203. DOI: <https://doi.org/10.1093/ageing/afy180>
 
 - Wilkinson, C., Bebb, O., Dondo, T.B., Munyombwe, T., Casadei, B., Clarke, S., Schiele, F., Timmis, A., Hall, M. and Gale, C.P. (2019). *Sex differences in quality indicator attainment for myocardial infarction: a nationwide cohort study*. **Heart**, 105, 516–523.
 
@@ -70,7 +70,7 @@ This personal fellowship supported Dr Marlous Hall's research into healthcare ut
 
 - Hall, M., Bebb, O., Dondo, T.B. *et al.* (2018). *Guideline-indicated treatments and diagnostics, GRACE risk score and survival for non-ST elevation myocardial infarction*. **European Heart Journal**, 39(42), 3798–3806.
 
-- Bebb, O., Smith, F.G.D., Clegg, A., Hall, M. and Gale, C.P. (2018). *Frailty and acute coronary syndrome: a structured literature review*. **European Heart Journal: Acute Cardiovascular Care**, 7(2). DOI: https://doi.org/10.1177/2048872617700873
+- Bebb, O., Smith, F.G.D., Clegg, A., Hall, M. and Gale, C.P. (2018). *Frailty and acute coronary syndrome: a structured literature review*. **European Heart Journal: Acute Cardiovascular Care**, 7(2). DOI: <https://doi.org/10.1177/2048872617700873>
 
 - Dondo, T.B., Hall, M., West, R.M. *et al.* (2017). *Beta-blockers and mortality after acute myocardial infarction in patients without heart failure or ventricular dysfunction*. **Journal of the American College of Cardiology**, 69(22), 2710–2720.
 
@@ -92,7 +92,7 @@ This personal fellowship supported Dr Marlous Hall's research into healthcare ut
 
 - Batty, J.A., del Toro, T. and Hall, M. (2026). *Accumulation and attenuation of cardiovascular benefit with glucagon-like peptide 1 receptor agonists*. **BMJ Medicine**, 5, e002704. DOI: https://doi.org/10.1136/bmjmed-2026-002704
 
-- Batty, J.A., Smith, L. and Hall, M. (2024). *The impact of multiple long-term conditions on hospitalisation and mortality during winter: an example of the importance of linked, population-scale healthcare data*. **BMJ Medicine**, 3(1), e001114. DOI: https://doi.org/10.1136/bmjmed-2024-001114
+- Batty, J.A., Smith, L. and Hall, M. (2024). *The impact of multiple long-term conditions on hospitalisation and mortality during winter: an example of the importance of linked, population-scale healthcare data*. **BMJ Medicine**, 3(1), e001114. DOI: <https://doi.org/10.1136/bmjmed-2024-001114>
 
 - Batty, J.A. and Hall, M. (2023). *Trends in ACEi and ARB expenditure: compelling case for competition in generic drug markets*. **International Journal of Cardiology**, 370.
 
