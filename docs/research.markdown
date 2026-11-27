@@ -21,7 +21,7 @@ This personal fellowship supported Dr Marlous Hall's research into healthcare ut
 ## Publications
 
 - Sturley, C., del Toro, T., Batty, J.A., Booth, E. and Hall, M. (2026). *Geographic variation in long-term health outcomes following myocardial infarction in England*. **Heart**. DOI: https://doi.org/10.1136/heartjnl-2025-327671
-        - The interactive maps based on this work can be explored [here](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI_CIF_spatial/).
+   - The interactive maps based on this work can be explored [here](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI_CIF_spatial/).
 
 - Ba Dhafari, T., Pate, A., Martin, G., Rafferty, J., Jalali-Najafabadi, F., Hall, M. and Peek, N. (2026). *Cluster separation outperforms other metrics in validating multimorbidity patterns: statistical simulation study*. **Journal of Clinical Epidemiology**, 194, 112209. DOI: https://doi.org/10.1016/j.jclinepi.2026.112209
 
@@ -30,7 +30,7 @@ This personal fellowship supported Dr Marlous Hall's research into healthcare ut
 - Batty, J.A., del Toro, T., Drayton, D.J., Booth, E., Anik, E., Sturley, C., Brown, B.C., Kearney, M.T. and Hall, M. (2025). *Multimorbidity in acute coronary syndrome: a systematic review and meta-analysis*. **JACC: Advances**, 4(8), 102006. DOI: https://doi.org/10.1016/j.jacadv.2025.102006
 
 - Hall, M., Smith, L., Wu, J. *et al.* (2024). *Health outcomes after myocardial infarction: a population study of 56 million people in England*. **PLOS Medicine**, 21(2), e1004343. DOI: https://doi.org/10.1371/journal.pmed.1004343
-        - The interactive heat maps based on this work can be explored [here](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI_CIF/).
+    - The interactive heat maps based on this work can be explored [here](https://multimorbidity-research-university-of-leeds.shinyapps.io/postMI_CIF/).
 
 - Marzban, M., Hall, M. *et al.* (2024). *Determinants of multimorbidity in older adults in Iran: a cross-sectional study using latent class analysis on the Bushehr Elderly Health (BEH) program*. **BMC Geriatrics**, 24(1), 247. DOI: https://doi.org/10.1186/s12877-024-04848-y
 
